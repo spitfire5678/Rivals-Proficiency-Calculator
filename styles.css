@@ -1,5 +1,11 @@
 body {
-    margin: 50 10;
+    margin: 0px;
     background: powderblue;
     text-align: center;
+}
+div {
+    padding: 20px;
+}
+#currentLevel {
+    width: 5em;
 }
