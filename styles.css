@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 input[type="number"] {
-    width: 20px;
+    width: 50px;
     padding: 0px;
-    margin: 10px
-    scale: 1;
+    margin: 20px
+    scale: 1.5;
 }
