@@ -8,67 +8,71 @@
 <body>
     <h1>Rivals Proficiency Calculator</h1>
     <form>
-        <label for="heroSelect">Select Hero</label>
-        <select id="heroSelect" name="heroSelect">
-            <optgroup label="Vanguards">
-                <option value="Angela">Angela</option>
-                <option value="Captain America">Captain America</option>
-                <option value="Doctor Strange">Doctor Strange</option>
-                <option value="Emma Frost">Emma Frost</option>
-                <option value="Groot">Groot</option>
-                <option value="Hulk">Hulk</option>
-                <option value="Magneto">Magneto</option>
-                <option value="Peni Parker">Peni Parker</option>
-                <option value="Rogue">Rogue</option>
-                <option value="The Thing">The Thing</option>
-                <option value="Thor">Thor</option>
-                <option value="Venom">Venom</option>
-            </optgroup>
-            <optgroup label="Duelists">
-                <option value="Black Cat">Black Cat</option>
-                <option value="Black Panther">Black Panther</option>
-                <option value="Black Widow">Black Widow</option>
-                <option value="Blade">Blade</option>
-                <option value="Daredevil">Daredevil</option>
-                <option value="Elsa Bloodstone">Elsa Bloodstone</option>
-                <option value="Hawkeye">Hawkeye</option>
-                <option value="Hela">Hela</option>
-                <option value="Human Torch">Human Torch</option>
-                <option value="Iron Fist">Iron Fist</option>
-                <option value="Iron Man">Iron Man</option>
-                <option value="Magik">Magik</option>
-                <option value="Mister Fantastic">Mister Fantastic</option>
-                <option value="Moon Knight">Moon Knight</option>
-                <option value="Namor">Namor</option>
-                <option value="Phoenix">Phoenix</option>
-                <option value="Psylocke">Psylocke</option>
-                <option value="Scarlet Witch">Scarlet Witch</option>
-                <option value="Spider-Man">Spider Man</option>
-                <option value="Squirrel Girl">Squirrel Girl</option>
-                <option value="Star-Lord">Star Lord</option>
-                <option value="Storm">Storm</option>
-                <option value="The Punisher">Punisher</option>
-                <option value="Winter Soldier">Winter Soldier</option>
-                <option value="Wolverine">Wolverine</option>
-            </optgroup>
-            <optgroup label="Strategists">
-                <option value="Adam Warlock">Adam Warlock</option>
-                <option value="Cloak & Dagger">Cloak & Dagger</option>
-                <option value="Gambit">Gambit</option>
-                <option value="Invisible Woman">Invisible Woman</option>
-                <option value="Jeff">Jeff</option>
-                <option value="Loki">Loki</option>
-                <option value="Luna Snow">Luna Snow</option>
-                <option value="Rocket Raccoon">Rocket Raccoon</option>
-                <option value="Ultron">Ultron</option>
-                <option value="White Fox">White Fox</option>
-            </optgroup>
-            <optgroup label="Special">
-                <option value="Deadpool">Deadpool</option>
-            </optgroup>
-        </select>
-        <label for="currentLevel">Current Level</label>
-        <input type="number" id="currentLevel" name="currentLevel" placeholder="Current Level" min="1" max="69" required>
+        <div>
+            <label for="heroSelect">Select Hero</label>
+            <select id="heroSelect" name="heroSelect">
+                <optgroup label="Vanguards">
+                    <option value="Angela">Angela</option>
+                    <option value="Captain America">Captain America</option>
+                    <option value="Doctor Strange">Doctor Strange</option>
+                    <option value="Emma Frost">Emma Frost</option>
+                    <option value="Groot">Groot</option>
+                    <option value="Hulk">Hulk</option>
+                    <option value="Magneto">Magneto</option>
+                    <option value="Peni Parker">Peni Parker</option>
+                    <option value="Rogue">Rogue</option>
+                    <option value="The Thing">The Thing</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Venom">Venom</option>
+                </optgroup>
+                <optgroup label="Duelists">
+                    <option value="Black Cat">Black Cat</option>
+                    <option value="Black Panther">Black Panther</option>
+                    <option value="Black Widow">Black Widow</option>
+                    <option value="Blade">Blade</option>
+                    <option value="Daredevil">Daredevil</option>
+                    <option value="Elsa Bloodstone">Elsa Bloodstone</option>
+                    <option value="Hawkeye">Hawkeye</option>
+                    <option value="Hela">Hela</option>
+                    <option value="Human Torch">Human Torch</option>
+                    <option value="Iron Fist">Iron Fist</option>
+                    <option value="Iron Man">Iron Man</option>
+                    <option value="Magik">Magik</option>
+                    <option value="Mister Fantastic">Mister Fantastic</option>
+                    <option value="Moon Knight">Moon Knight</option>
+                    <option value="Namor">Namor</option>
+                    <option value="Phoenix">Phoenix</option>
+                    <option value="Psylocke">Psylocke</option>
+                    <option value="Scarlet Witch">Scarlet Witch</option>
+                    <option value="Spider-Man">Spider Man</option>
+                    <option value="Squirrel Girl">Squirrel Girl</option>
+                    <option value="Star-Lord">Star Lord</option>
+                    <option value="Storm">Storm</option>
+                    <option value="The Punisher">Punisher</option>
+                    <option value="Winter Soldier">Winter Soldier</option>
+                    <option value="Wolverine">Wolverine</option>
+                </optgroup>
+                <optgroup label="Strategists">
+                    <option value="Adam Warlock">Adam Warlock</option>
+                    <option value="Cloak & Dagger">Cloak & Dagger</option>
+                    <option value="Gambit">Gambit</option>
+                    <option value="Invisible Woman">Invisible Woman</option>
+                    <option value="Jeff">Jeff</option>
+                    <option value="Loki">Loki</option>
+                    <option value="Luna Snow">Luna Snow</option>
+                    <option value="Rocket Raccoon">Rocket Raccoon</option>
+                    <option value="Ultron">Ultron</option>
+                    <option value="White Fox">White Fox</option>
+                </optgroup>
+                <optgroup label="Special">
+                    <option value="Deadpool">Deadpool</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="currentLevel">Current Level</label>
+            <input type="number" id="currentLevel" name="currentLevel" placeholder="Current Level" min="1" max="69" required>
+        </div>
     </form>
 </body>
 </html>
