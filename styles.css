@@ -4,9 +4,10 @@ body {
     text-align: center;
 }
 div {
-    scale: 2;
-    margin: 40;
+    scale: 1;
+    padding: 40;
 }
 input[type="number"] {
     width: 300;
+    scale: 2;
 }
