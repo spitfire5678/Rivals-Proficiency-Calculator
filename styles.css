@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 div {
-    padding: 5px;
+    margin: 10px;
 }
 input[type="number"] {
-    width: 10em;
+    width: 100px;
 }
