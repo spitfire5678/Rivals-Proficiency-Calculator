@@ -1,11 +1,12 @@
 body {
-    margin: 0px;
+    margin: 0;
     background: powderblue;
     text-align: center;
 }
 div {
-    margin: 10px;
+    scale: 2;
+    margin: 10;
 }
 input[type="number"] {
-    width: 100px;
+    width: 150;
 }
