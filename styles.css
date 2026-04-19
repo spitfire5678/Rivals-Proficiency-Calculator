@@ -3,8 +3,11 @@ body {
     background: powderblue;
     text-align: center;
 }
+div {
+    scale: 1;
+}
 input[type="number"] {
     width: 50px;
-    scale: 1.5;
+    scale: 1;
     padding: 50px;
 }
