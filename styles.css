@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 div {
-    padding: 10px;
+    padding: 5px;
 }
-#currentLevel {
+input[type="number"] {
     width: 10em;
 }
